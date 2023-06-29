@@ -12,7 +12,7 @@ toggle.addEventListener("click", () => {
 searchBtn.addEventListener("click", () => {
     sidebar.classList.remove("close");
 })
-modeSwitch-addEventListener("click", () => {
+modeSwitch.addEventListener("click", () => {
    
     body.classList.toggle("dark");
     if(body.classList.contains("dark")) {
